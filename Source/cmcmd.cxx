@@ -2426,7 +2426,7 @@ int cmVSLink::RunMT(std::string const& out, bool notify)
   }
   cm::append(mtCommand, this->UserManifests);
   mtCommand.push_back(out);
-  if (notify) {
+  if (notify && false) {
     // Add an undocumented option that enables a special return
     // code to notify us when the manifest is modified.
     mtCommand.emplace_back("/notify_update");
