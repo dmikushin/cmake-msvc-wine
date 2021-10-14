@@ -1,6 +1,12 @@
 CMake
 *****
 
+This is a CMake version `patched`_ by Martin Storsjo for `msvc-wine`_ that fixes the `PDB issue`_.
+
+.. _`patched`: https://gitlab.kitware.com/mstorsjo/cmake/-/commits/msvc/
+.. _`msvc-wine`: https://github.com/mstorsjo/msvc-wine
+.. _`PDB issue`: https://github.com/mstorsjo/msvc-wine/issues/21
+
 Introduction
 ============
 
